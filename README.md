@@ -3,7 +3,7 @@
  - Edges are good, and corners are best, because there are fewer ways to outflank them.
  - Corners are valued really high so they will almost always be played ASAP.
  - The tiles adjacent to edges/corners aren't great since they set up your opponent to play on the edges/corner.
- - The diagonals are more valuable because controlling them cam make it easier to get the corners.
+ - The diagonals are more valuable because controlling them can make it easier to get the corners.
 
 It works great against a random opponent, but I can definitely see flaws in the way it plays. I expect that the values of each tile could be optimized with more testing, but if I were to spend time making it more robust I would probably just implement alpha-beta pruning.
 
